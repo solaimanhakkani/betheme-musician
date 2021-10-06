@@ -1,0 +1,377 @@
+/*
+BOOTSTRAP & HTML5 BOILER PLATE JS JQ INTEGRATION ALTOGETHER
+Author: MD. SHAKH SOLAIMAN HAKKANI
+Email: mdshakhhakkani@gmail.com
+URL: ....
+
+/* media query for responsiveness
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+*/
+        
+
+.header_wrapper{
+    background: url(../images/home_musician_slider.jpg);
+    height: 1200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.head_bar{
+    width: 1080px;
+    height: 70px;
+    font-size: 15px;
+    margin-left: 45px;
+    margin-top: 60px;
+    background-color: #101417;
+    opacity: 1;
+    position: relative;
+    z-index: 202;
+}
+
+.logo_musician img{
+    margin-top: 20px;
+    width: 145px;
+}
+
+.menu {
+    margin-left: 450px;
+    margin-top: -40px;
+    font-size: 15px;
+}
+.menu ul li{
+    padding: 15px;
+}
+
+.menu ul li a{
+    color: #898f97;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+}
+
+.menu ul li span a{
+    color: #e55165;   
+}
+
+.menu ul li span{
+    margin-left: 5px;
+}
+
+.caption_left h1{
+    color: #D8E6E7;
+    background-color: transparent;
+    font-size: 90px;
+    font-family: 'Playfair Display', serif;
+    margin-left: 75px;
+    margin-top: 125px;
+}
+
+.caption_left p{
+    color:rgba(255,130,130,1.00);
+    background-color: transparent;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 75px;
+    margin-top: -40px;
+}
+
+
+.signature img{
+    background-color: transparent;
+    margin-left: 50px;
+    margin-top: 135px;
+}
+
+.composition_set{
+    margin-top: 270px;
+}
+
+.composition_set h2{
+    color: #d8e6e7;
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    line-height: 60px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.sectionb{
+    background: url(../images/home_musician_sectionbg1.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.sectionb_gallery1 img{
+    margin-left: -120px;
+    width:337px;
+    transition: all 2s;
+}
+
+.sectionb_gallery1 img:hover{
+    transform: scale(1.09 );
+}
+
+.sectionb_gallery2 img{
+    margin-left: -68px;
+    width:337px;
+    transition: all 2s;
+}
+
+.sectionb_gallery2 img:hover{
+    transform: scale(1.09 );
+}
+
+.sectionb_gallery3 img{
+    margin-left: -16px;
+    width:337px;
+    transition: all 2s;
+}
+
+.sectionb_gallery3 img:hover{
+    transform: scale(1.09 );
+}
+
+.sectionb_gallery4 img{
+    margin-left: 37px;
+    width:337px;
+    transition: all 2s;
+}
+
+.sectionb_gallery4 img:hover{
+    transform: scale(1.09 );
+}
+
+.viewbutton_1{
+    margin-top: 55px;
+    padding: 15px 95px;
+    border: 2px solid #98A2A4;
+    border-radius: 3px;
+    background-color: transparent;
+} 
+
+.viewbutton_1 a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #D8E6E7;
+    text-decoration: none;
+}
+
+
+.section_cheart{
+    background: url(../images/home_musician_sectionbg2.png);
+    height: 900px;
+    width: 100%;
+    background-repeat: repeat;
+}
+
+.sectionc_background img{
+    margin-left: -104px;
+    width: 1347px;
+}
+
+.sectionc_banner h1{
+    font-size: 46px;
+    font-family: 'Playfair Display', serif; 
+    line-height: 60px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.sectionc_banner h1 span{
+    color: #ff334b;
+    font-weight: 700;
+}
+
+.about1 h2{
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    line-height: 38px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.about1 p{
+    margin-top: 15px;
+}
+
+.aboutme2 h3{
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    line-height: 38px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.view_btn{
+    margin-top: 26px;
+    padding: 11px 20px;
+    border: 2px solid #ff334b;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+.view_btn a{
+    color: #ff334b;
+}
+
+.view_btn:hover{
+    background-color: #ff334b;
+}
+
+.view_btn a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.blog_content1 img{
+    width: 110px;
+    border-right: 3px solid #ff334b;
+}
+
+.blog_content1 h4{
+    margin-top: -70px;
+    margin-left: 120px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid lightgrey;
+}
+
+.desc_icon1{
+    margin-left: 122px;
+}
+
+.love_wrapper1{
+    margin-top: -20px;
+    margin-left: 265px;
+}
+
+.love_wrapper1 a{
+    color: #ff334b;
+}
+
+.label1{
+    color: #333;
+}
+
+.blog_content2{
+    margin-top: 45px;
+}
+
+.blog_content2 img{
+    width: 110px;
+    border-right: 3px solid #ff334b;
+}
+
+.blog_content2 h5{
+    margin-top: -70px;
+    margin-left: 120px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid lightgrey;
+}
+
+.desc_icon2{
+    margin-left: 122px;
+}
+
+.love_wrapper2{
+    margin-top: -20px;
+    margin-left: 265px;
+}
+
+.love_wrapper2 a{
+    color: #ff334b;
+}
+
+.label2{
+    color: #333;
+}
+
+.blog_content3{
+    margin-top: 45px;
+}
+
+.blog_content3 img{
+    width: 110px;
+    border-right: 3px solid #ff334b;
+}
+
+.blog_content3 h6{
+    margin-top: -70px;
+    margin-left: 120px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid lightgrey;
+}
+
+.desc_icon3{
+    margin-left: 122px;
+}
+
+.love_wrapper3{
+    margin-top: -20px;
+    margin-left: 265px;
+}
+
+.love_wrapper3 a{
+    color: #ff334b;
+}
+
+.label3{
+    color: #333;
+}
+
+.gallery_img00 img{
+    width: 355px;
+    margin-top: -290px;    
+    margin-left: 350px;
+}
+
+.finish_wrapper {
+    height: 300px;
+    width:100%;
+    background-color: #DCE2E3;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9f9f9f+0,d1d1d1+54&1+0,0+100 */
+background: -moz-linear-gradient(top, rgba(159,159,159,1) 0%, rgba(209,209,209,0.46) 54%, rgba(209,209,209,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(159,159,159,1) 0%,rgba(209,209,209,0.46) 54%,rgba(209,209,209,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(159,159,159,1) 0%,rgba(209,209,209,0.46) 54%,rgba(209,209,209,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f9f9f', endColorstr='#00d1d1d1',GradientType=0 ); /* IE6-9 */
+}
+
+.ending_background img{
+    margin-top: 55px;
+}
+
+.ending_background ul li{
+    margin-top: 25px;
+}
+
+.ending_background ul li a{
+    padding: 10px;
+    color: #989ea1;
+    font-size: 25px;
+}
+
+.ending_background p{
+    
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+
+.footer_wrapper{
+    background-color: #DCE2E3;
+    height: 100px;
+    border-top: 2px solid #CFD5D6;
+}
+
+.footer_background p{
+    margin-top: 40px;
+}
